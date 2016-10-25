@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/hola"
+        android:id="@+id/tv_hola" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:id="@+id/btn_ok"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="d"
+        android:id="@+id/tv_nom"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_hola"
+        android:layout_toEndOf="@+id/tv_hola" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Edat"
+        android:id="@+id/tv_edat"
+        android:layout_above="@+id/et_edat"
+        android:layout_alignLeft="@+id/et_edat"
+        android:layout_alignStart="@+id/et_edat" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/et_edat"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/hola2"
+        android:id="@+id/tv_hola2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_nom"
+        android:layout_toEndOf="@+id/tv_nom" />
+
+</RelativeLayout>

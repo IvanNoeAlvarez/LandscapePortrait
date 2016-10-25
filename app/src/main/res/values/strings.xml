@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LandscapePortrait</string>
+    <string name="com">Com que tens </string>
+    <string name="frase18a"> ja eres major d\'edat</string>
+    <string name="frase25a"> estas en la flor de la vida</string>
+    <string name="frase35a"> uy, uy, uy...</string>
+    <string name="hola">Hola  </string>
+    <string name="hola2">, indican\'s les següents dades</string>
+
+</resources>
